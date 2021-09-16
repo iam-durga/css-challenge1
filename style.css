@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  position: relative;
+}
+h1,
+h2 {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+h1::before {
+  content: "SALE";
+  background-color: red;
+  color: white;
+  font-size: 16px;
+  padding: 5px 10px;
+  letter-spacing: 6px;
+  position: absolute;
+  top: -17px;
+  left: -38px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+p {
+  font-size: 18px;
+}
+a {
+  color: black;
+}
+a:link {
+  display: inline-block;
+}
+a:hover {
+  text-decoration: none;
+}
+.component {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  border: 2px solid black;
+  border-radius: 5px;
+  position: relative;
+}
+.main-heading {
+  text-transform: uppercase;
+  font-size: 22px;
+  background-color: gainsboro;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+}
+.product-details {
+  padding: 20px;
+}
+.product-image {
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+.price {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.shipping {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: rgb(52, 55, 58);
+}
+.color-pallet {
+  margin: 26px 0;
+}
+.color {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin-right: 14px;
+  border-radius: 3px;
+}
+.color-red {
+  background-color: red;
+}
+.color-blue {
+  background-color: blue;
+}
+.color-black {
+  background-color: black;
+}
+.color-yellow {
+  background-color: yellow;
+}
+.color-brown {
+  background-color: brown;
+}
+ul {
+  margin-left: 20px;
+}
+li {
+  list-style: square;
+  margin-bottom: 10px;
+}
+.cart-button {
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: rgb(17, 16, 16);
+  color: whitesmoke;
+  text-transform: uppercase;
+}
+.cart-button:hover {
+  background-color: white;
+  color: black;
+  border-top: 2px;
+  border-bottom: 2px;
+  border-style: solid;
+}
